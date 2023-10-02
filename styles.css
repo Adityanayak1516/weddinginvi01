@@ -14,7 +14,7 @@ body {
    letter-spacing: 1px;
 }
 h1 {
-  color: black;
+  color: #ff899f;
 }
 h3 {
   color: crimson;
@@ -162,6 +162,34 @@ img {
   color: #000000;
   padding-left: 10%;
 }
+button {
+  position: relative;
+  background-color: #8ac9ff;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button:after {
+  content: "";
+  background: #ff3838;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
 
 .img-container {
   margin-right: 5%;
@@ -171,7 +199,8 @@ img {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #111111;
-  color: rgb(173, 173, 173);
+  background-color: #cecece;
+  color: rgb(45, 132, 255);
   text-align: center;
+  font-style: bold;
 }
