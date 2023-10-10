@@ -32,7 +32,7 @@ h2 {
 p {
   color: #353032;
   font-weight: 200;
-  font-size: medium;
+  font-size: large;
   margin: 20px;
 
 }
@@ -45,6 +45,34 @@ img {
   align-items: center;
   justify-content: right;
   padding: 2% 0;
+}
+.dir-container {
+  position: relative;
+
+}
+
+
+.dir-container .btn {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6bd7d7;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: large;
 }
 
 .header {
@@ -165,16 +193,6 @@ img {
   color: #000000;
   padding-left: 10%;
 }
-button {
-  position: relative;
-  background-color: #8ac9ff;
-  border: none;
-  font-size: 15px;
-  padding: 10px;
-  margin-right: 10px;
-  margin-left: 40px;
-}
-
 
 
 .img-container {
@@ -190,3 +208,4 @@ button {
   text-align: center;
   font-style: bold;
 }
+
